@@ -1,0 +1,9 @@
+CREATE TABLE bank_user (
+  id SERIAL PRIMARY KEY,
+  username VARCHAR(30) NOT NULL,
+  email VARCHAR(70) NOT NULL,
+  password VARCHAR(100) NOT NULL,
+  name VARCHAR(100) NOT NULL,
+  balance  DECIMAL NOT NULL
+  )
+  
